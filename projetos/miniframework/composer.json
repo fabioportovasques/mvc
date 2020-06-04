@@ -1,28 +1,22 @@
-
 {
-
-
-	"name": "miniframework",
+	"name":"miniframework",
 	"require":{
 		"php": ">=7.0"
 	},
-	"authors": [
+
+	"authors":[
 
 		{
-
-			"name": "Fábio Vasques",
+			"name":"Fábio porto Vasques",
 			"email":"fabioportovasques321@gmail.com"
-
 		}
 
 	],
 
-	"autoload": {
-		"psr-4":{
-			"App//": "App/",
-			"MF//": "vendor/MF/"
+	"autoload":{
+		"psr-4": {
+			"App\\": "App/",
+			"MF\\": "vendor/MF/"
 		}
 	}
-
-
 }
